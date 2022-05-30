@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-str = "Holberton School"
-str1 = " to "
-str2 = "Welcome "
-print(str + str1 + str2)
+str1 = "Holberton"
+str2 = "School"
+str1 += " " + str2
+print("Welcome to {}!".format(str1))
